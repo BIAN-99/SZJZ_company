@@ -54,7 +54,7 @@ handle = driver.window_handles
 # 跳转到最后一个窗口
 driver.switch_to.window(handle[-1])
 # 获取视频标题元素并点击进入
-get_title = driver.find_element(By.CSS_SELECTOR, "[title='战鹰的梦百合杯世界围棋赛之旅！']")
+get_title = driver.find_element(By.CSS_SELECTOR, "[title='弈周棋讯|灵动的洁宝回来了']")
 get_title.click()
 sleep(8)
 # 获取所有窗口
@@ -62,7 +62,7 @@ handle = driver.window_handles
 # 跳转到最后一个窗口
 driver.switch_to.window(handle[-1])
 # 滚动条操作,通过控制执行JS语句实现
-driver.execute_script('window.scrollBy(0,200)')
+driver.execute_script('window.scrollBy(0,550)')
 sleep(5)
 # 创建动作链对象,可以进行鼠标操作
 chains = ActionChains(driver)
@@ -74,3 +74,15 @@ chains.move_to_element(get_video)
 chains.click()
 # 动作执行语句,没这句话以上动作无法执行
 chains.perform()
+# 获取评论区文本框
+get_pinglun = driver.find_element(By.TAG_NAME, "textarea")
+# 鼠标移动到评论区文本框并点击
+chains.move_to_element(get_pinglun)
+chains.click()
+chains.perform()
+# 输入评论内容
+get_pinglun.send_keys('鹰鹰鹰~')
+# 获取发布按钮
+get_push = driver.find_element(By.CLASS_NAME, 'send-text')
+# 点击发布按钮,发布评论内容
+get_push.click()
