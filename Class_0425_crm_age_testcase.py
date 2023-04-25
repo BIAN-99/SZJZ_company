@@ -57,7 +57,7 @@ else:
     print(f'共执行测试用例{case_total}个,通过{case_pass}个,失败{case_error}个')
 sleep(5)
 
-# ---------- 添加用户-反例-用户名未输入 ----------
+# ----------- 添加用户-反例-用户名未输入 -----------
 # driver.find_element(By.CSS_SELECTOR, '.el-icon-plus').click()
 # sleep(2)
 # # 正常录入
