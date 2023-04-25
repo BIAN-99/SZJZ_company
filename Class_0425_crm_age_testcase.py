@@ -27,7 +27,7 @@ driver.find_element(By.CSS_SELECTOR, '.el-icon-plus').click()
 sleep(2)
 # 正常录入
 # 数据
-customer = {'name': '郭德纲', 'phone': 19988887779, 'age': 20, 'school': '清华池', 'major': '搓系'}
+customer = {'name': '郭德纲', 'phone': 19984687779, 'age': 20, 'school': '清华池', 'major': '搓系'}
 driver.find_element(By.ID, 'name').send_keys(customer['name'])
 driver.find_element(By.CSS_SELECTOR, '.el-radio__input>.el-radio__inner').click()
 driver.find_element(By.ID, 'phone').send_keys(customer['phone'])
@@ -58,35 +58,35 @@ else:
 sleep(5)
 
 # ---------- 添加用户-反例-用户名未输入 ----------
-driver.find_element(By.CSS_SELECTOR, '.el-icon-plus').click()
-sleep(2)
-# 正常录入
-# 数据
-customer1 = {'name': '郭德纲', 'phone': 19988887777, 'age': 20, 'school': '清华池', 'major': '搓系'}
-# driver.find_element(By.ID, 'name').send_keys(customer1['name'])
-driver.find_element(By.CSS_SELECTOR, '.el-radio__input>.el-radio__inner').click()
-driver.find_element(By.ID, 'phone').send_keys(customer1['phone'])
-driver.find_element(By.ID, 'age').send_keys(customer1['age'])
-driver.find_element(By.ID, 'school').send_keys(customer1['school'])
-driver.find_element(By.ID, 'major').send_keys(customer1['major'])
-driver.find_element(By.ID, 'origin').click()
-sleep(1)
-driver.find_element(By.XPATH, '/html/body/div[3]/div[1]/div[1]/ul/li[4]/span[text()="智联投递"]').click()
-driver.find_element(By.ID, 'degree').click()
-sleep(1)
-driver.find_element(By.XPATH, '/html/body/div[4]/div[1]/div[1]/ul/li[1]/span[text()="本科"]').click()
-driver.find_element(By.ID, 'employeeGW').click()
-sleep(1)
-driver.find_element(By.XPATH, '/html/body/div[5]/div[1]/div[1]/ul/li[1]/span[text()="娟娟"]').click()
-driver.find_element(By.CSS_SELECTOR, '.dialog-footer>button.el-button.el-button--primary').click()
-
-info = driver.find_element(By.CSS_SELECTOR, 'div:has(>#name)+div.el-form-item__error').get_property('innerText')
-if info == '必须填写':
-    case_total += 1
-    case_pass += 1
-    print('测试通过')
-    print(f'共执行测试用例{case_total}个,通过{case_pass}个,失败{case_error}个')
-else:
-    case_error += 1
-    print('测试不通过')
-    print(f'共执行测试用例{case_total}个,通过{case_pass}个,失败{case_error}个')
+# driver.find_element(By.CSS_SELECTOR, '.el-icon-plus').click()
+# sleep(2)
+# # 正常录入
+# # 数据
+# customer1 = {'name': '郭德纲', 'phone': 19988887777, 'age': 20, 'school': '清华池', 'major': '搓系'}
+# # driver.find_element(By.ID, 'name').send_keys(customer1['name'])
+# driver.find_element(By.CSS_SELECTOR, '.el-radio__input>.el-radio__inner').click()
+# driver.find_element(By.ID, 'phone').send_keys(customer1['phone'])
+# driver.find_element(By.ID, 'age').send_keys(customer1['age'])
+# driver.find_element(By.ID, 'school').send_keys(customer1['school'])
+# driver.find_element(By.ID, 'major').send_keys(customer1['major'])
+# driver.find_element(By.ID, 'origin').click()
+# sleep(1)
+# driver.find_element(By.XPATH, '/html/body/div[3]/div[1]/div[1]/ul/li[4]/span[text()="智联投递"]').click()
+# driver.find_element(By.ID, 'degree').click()
+# sleep(1)
+# driver.find_element(By.XPATH, '/html/body/div[4]/div[1]/div[1]/ul/li[1]/span[text()="本科"]').click()
+# driver.find_element(By.ID, 'employeeGW').click()
+# sleep(1)
+# driver.find_element(By.XPATH, '/html/body/div[5]/div[1]/div[1]/ul/li[1]/span[text()="娟娟"]').click()
+# driver.find_element(By.CSS_SELECTOR, '.dialog-footer>button.el-button.el-button--primary').click()
+#
+# info = driver.find_element(By.CSS_SELECTOR, 'div:has(>#name)+div.el-form-item__error').get_property('innerText')
+# if info == '必须填写':
+#     case_total += 1
+#     case_pass += 1
+#     print('测试通过')
+#     print(f'共执行测试用例{case_total}个,通过{case_pass}个,失败{case_error}个')
+# else:
+#     case_error += 1
+#     print('测试不通过')
+#     print(f'共执行测试用例{case_total}个,通过{case_pass}个,失败{case_error}个')
