@@ -61,7 +61,7 @@ else:
     case_total += 1
     case_wrong += 1
     print('测试不通过')
-    print(f'共执行测试用例{case_total}个,通过{case_pass}个,失败{case_wrong}个')
+    print(f'执行测试用例{case_total}个,通过{case_pass}个,失败{case_wrong}个')
 sleep(5)
 
 
