@@ -56,7 +56,7 @@ if driver.find_element(By.CSS_SELECTOR, '.el-message>.el-message__content').get_
     case_total += 1
     case_pass += 1
     print('测试通过')
-    print(f'共执行测试用例{case_total}个,通过{case_pass}个,失败{case_wrong}个')
+    print(f'执行测试用例{case_total}个,通过{case_pass}个,失败{case_wrong}个')
 else:
     case_total += 1
     case_wrong += 1
