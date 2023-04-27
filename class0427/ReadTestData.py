@@ -64,4 +64,4 @@ class ReadTestDataUtil:
         print(pandas.read_excel(file_name))
 
 
-ReadTestDataUtil().read_excel_my('motos.xlsx')
+# ReadTestDataUtil().read_excel_my('motos.xlsx')
