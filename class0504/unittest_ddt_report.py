@@ -16,6 +16,7 @@ with open(report_file, 'wb') as f:
     # 第三种方法TestLoader
     loader = unittest.TestLoader()
     # FromModule 通过加载器加载整个模块
-    suite = unittest.defaultTestLoader.discover('./', pattern='MyTestCase*')
+    suite = loader.discover('./', pattern='MyTestCase*')
+    # title放测试报告标题,description放测试报告的描述,stream放打开的文件,用于承载测试报告
     runner = HTMLTestRunner(title='5月4日模拟测试', description='此日学习使用了测试套件进行测试用例及测试方法的测试', stream=f)
     runner.run(suite)

@@ -4,7 +4,7 @@
 import unittest
 
 
-class TestCase001(unittest.TestCase):
+class TestCase_Login(unittest.TestCase):
     def test_001(self):
         self.assertEqual(1, 2)
         print("测试001")
