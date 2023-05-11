@@ -29,7 +29,7 @@ class Test_requests(unittest.TestCase):
         status_json = response.json()
         total = status_json["total"]
         # 创建一个字典
-        with open('file.txt', 'w') as file:
+        with open('customerInfo.txt', 'w') as file:
             file.write(json.dumps(status_json, ensure_ascii=False, indent=4))
         self.assertIsNotNone(total)
         print(f"-----搜索信息,测试通过!-----")
