@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
+import json
 import unittest
 import requests
 from ddt import ddt, file_data
@@ -27,6 +28,9 @@ class Test_requests(unittest.TestCase):
         response = self.session.get("http://192.168.31.162:8888/cus/advanced/getAllCustomer", params=params_login)
         status_json = response.json()
         total = status_json["total"]
+        # 创建一个字典
+        with open('file.txt', 'w') as file:
+            file.write(json.dumps(status_json, ensure_ascii=False, indent=4))
         self.assertIsNotNone(total)
         print(f"-----搜索信息,测试通过!-----")
 
