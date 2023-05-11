@@ -1,0 +1,45 @@
+[ {
+    "age": "22",
+    "degree": "本科",
+    "employeeGWId": 4,
+    "major": "前腰",
+    "name": "伊涅斯塔",
+    "originId": 4,
+    "school": "巴塞罗那",
+    "sex": "男",
+    "telephone": "17761789456"
+},
+  {
+    "age": "19",
+    "degree": "本科",
+    "employeeGWId": 4,
+    "major": "左边锋",
+    "name": "内马尔",
+    "originId": 4,
+    "school": "拉玛西亚",
+    "sex": "男",
+    "telephone": "18401367450"
+},
+  {
+    "age": "40",
+    "degree": "本科",
+    "employeeGWId": 4,
+    "major": "前锋",
+    "name": "伊布",
+    "originId": 4,
+    "school": "AC米兰",
+    "sex": "男",
+    "telephone": "13679736450"
+},
+   {
+    "age": "27",
+    "degree": "大专",
+    "employeeGWId": 4,
+    "major": "左边卫",
+    "name": "马塞洛",
+    "originId": 4,
+    "school": "皇家马德里",
+    "sex": "男",
+    "telephone": "16519789450"
+}
+]
