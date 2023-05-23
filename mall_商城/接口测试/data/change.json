@@ -1,0 +1,19 @@
+[{
+  "re_data": [{
+    "brandId": 1,
+    "brandName": "小米",
+    "description": "小米手机",
+    "giftGrowth": 10,
+    "giftPoint": 10,
+    "keywords": "手机",
+    "lowStock": 300,
+    "name": "小米15pro",
+    "newStatus": 1,
+    "note": "小米15",
+    "originalPrice": 5999,
+    "price": 5999,
+    "productCategoryId": 2,
+    "productCategoryName": "手机数码",
+    "productSn": "20230523001"
+}]
+}]

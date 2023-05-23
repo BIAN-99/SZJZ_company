@@ -1,0 +1,22 @@
+[ {
+              "description": "汽车",
+              "keywords": "汽车",
+              "name": "跑车",
+              "navStatus": 0,
+              "parentId": 0
+},
+{
+              "description": "汽车",
+              "keywords": "汽车",
+              "name": "大型SUV",
+              "navStatus": 0,
+              "parentId": 0
+            },
+  {
+              "description": "汽车",
+              "keywords": "汽车",
+              "name": "房车",
+              "navStatus": 0,
+              "parentId": 0
+            }
+]
