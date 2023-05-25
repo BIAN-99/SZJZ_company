@@ -3,7 +3,7 @@
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 
-from mall_商城.功能测试.Page.BasePage import Base
+from mall_0518.功能测试.BasePage import Base
 
 
 class AddCatePage(Base):

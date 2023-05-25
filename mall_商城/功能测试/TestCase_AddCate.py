@@ -18,7 +18,6 @@ class TestAdd(unittest.TestCase):
         self.driver = AddCatePage()
         self.driver.open_url(AddCatePage.url)
         self.driver.login()
-
     def tearDown(self) -> None:
         self.driver.close()
 

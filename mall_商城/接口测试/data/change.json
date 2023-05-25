@@ -1,5 +1,6 @@
 [{
-  "re_data": [{
+    "albumPics": "https://x0.ifengimg.com/res/2020/7C41AA2478E4CCB101266B9FA0AD0D3A13CEC615_size214_w1200_h1083.jpeg",
+    "id" : "180",
     "brandId": 1,
     "brandName": "小米",
     "description": "小米手机",
@@ -7,13 +8,12 @@
     "giftPoint": 10,
     "keywords": "手机",
     "lowStock": 300,
-    "name": "小米15pro",
+    "name": "小米100promax",
     "newStatus": 1,
     "note": "小米15",
-    "originalPrice": 5999,
-    "price": 5999,
+    "originalPrice": 9999,
+    "price": 9999,
     "productCategoryId": 2,
     "productCategoryName": "手机数码",
     "productSn": "20230523001"
-}]
 }]

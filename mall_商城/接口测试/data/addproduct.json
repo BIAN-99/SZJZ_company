@@ -1,21 +1,24 @@
-
-[{
-    "brandId": 1,
-    "brandName": "pg",
-    "description": "pg手机",
-    "giftGrowth": 100,
-    "giftPoint": 100,
-    "keywords": "shouji",
-    "lowStock": 300,
-    "name": "apple15prom",
-    "newStatus": 1,
-    "note": "小米15",
-    "originalPrice": 59990,
-    "price": 59990,
-    "productCategoryId": 2,
-    "productCategoryName": "手机数码",
-    "productSn": "20230523001"
-}]
+{
+    "data": [
+        {   "albumPics": "D:\\测试\\SZJZ_company\\mall_商城\\功能测试\\data\\123.jpg",
+            "brandId": 1,
+            "brandName": "小米",
+            "description": "pg手机",
+            "giftGrowth": 100,
+            "giftPoint": 100,
+            "keywords": "shouji",
+            "lowStock": 300,
+            "name": "库里南",
+            "newStatus": 1,
+            "note": "小米15",
+            "originalPrice": 59990,
+            "price": 59990,
+            "productCategoryId": 2,
+            "productCategoryName": "手机数码",
+            "productSn": "20230523001"
+        }
+    ]
+}
 
 
 
